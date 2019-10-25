@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    position: relative;
+    background-color: black;
+}
+
+h2 {
+    font-family: "Proza Libre";
+    font-size: 2vw;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 1vw;
+}
+
+a {
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: goldenrod;
+}
+
+.sectionBody>p:first-child:before {
+    display: none;
+}
+
+.sectionBody>p:before {
+    border: .1vw ridge goldenrod;
+    content: " ";
+    display: block;
+    margin: 1vw 0;
+    max-width: 30vw;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.navbar-dark {
+    background-color: #610b0b;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.card {
+    background-color: black;
+    border-radius: 0;
+    font-family: "Open Sans";
+}
+
+.headshot {
+    width: 15vw;
+}
+
+.name {
+    color: #999999;
+    font-size: 1vw;
+}
+
+.sectionContainer {
+    border-bottom: .1vw solid black;
+    border-top: .1vw solid black;
+}
+
+.sectionBody {
+    margin: 0 5vw;
+    padding: 2vw;
+}
+
+.parallax {
+    height: 20vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax#firstParallax {
+    background-image: url("../images/laughing_girls.jpg");
+    background-size: 100vw;
+}
+
+.parallax#secondParallax {
+    background-image: url("../images/silly_boys.jpg");
+    background-size: 100vw;
+}
