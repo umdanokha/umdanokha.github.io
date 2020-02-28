@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     padding-top: 3rem;
@@ -11,12 +11,12 @@ body {
 
 h2 {
     font-family: "Proza Libre";
-    font-size: 2vw;
+    font-size: 6vh;
 }
 
 p {
     font-family: "Open Sans";
-    font-size: 1vw;
+    font-size: 1vh;
 }
 
 a {
@@ -97,4 +97,12 @@ a {
 .parallax#secondParallax {
     background-image: url("../images/silly_boys.jpg");
     background-size: 100vw;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
